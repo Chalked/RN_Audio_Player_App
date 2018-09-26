@@ -15,6 +15,8 @@ export default class Player extends Component {
         };
     }
 
+    // comment
+
     componentDidMount = () => {
         AudioSession.setActive(true)
         .then(() => { console.log('AudioSession is now active.') })
